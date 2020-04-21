@@ -1,0 +1,76 @@
+header{
+    column-count: 2;
+    background-color: red;
+    height: 100px ;
+    width: auto;
+}
+header h1{
+    font-family: Montserrat, sans-serif;
+}
+.f1{
+    font-size: 50px;
+    color: white;
+    margin-left: 300px;
+}
+.carro{
+    margin-top: -30px;
+    margin-left: 200px;
+    height: 150px;
+    width: 250px;
+}
+.container{
+    margin: 0 auto;
+    padding: 10px;
+    width: 940px;
+}
+.info{
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    width: 400px;
+}
+.capa{
+    border-radius: 15px;
+}
+aside{
+    background-color: black;
+    border: 1px solid #000;
+    border-radius: 13px;
+    color: white;
+    float: right;
+    padding: 10px;
+    width: 300px;
+}
+.dados{
+    line-height: 30px;
+}
+label{
+    display: inline-block;
+    width: 90px;
+}
+input{
+    display: inline-block;
+}
+.examples{
+    display: none;
+}
+#send{
+    border: 1px solid gray;
+    margin-left: 100px;
+}
+.clear{
+    clear: both;
+}
+footer{
+    text-align: center;
+    bottom: 0;
+    left: 0;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}

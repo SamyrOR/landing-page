@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Roboto:wght@700&display=swap"
+     rel="stylesheet">
+    <title>F1 Motorsport</title>
+</head>
+<body>
+    <header>
+        <h1><span class="f1">F1</span> Motorsport</h1>
+        <img class="carro" src="styles/image/carro.png" alt="">
+    </header>
+    <div class="container clearfix">
+        <div class="info">
+            <h1>Uma cópia totalmente gratuita de F1 Motorsport</h1>
+            <p>Realize o cadastro com o seu e-mail ao lado para receber na hora um copia gratuita do
+                mais aclamado game de F1 do mundo.
+            </p>
+            <img class="capa" src="styles/image/capa-jogo.jpeg" alt="">
+        </div>
+        <aside>
+            <h3>Receba agora uma cópia</h3>
+            <p>Apenas preencha o formulário abaixo e vamos para as pistas!</p>
+            <form class="dados" action="">
+                <p>
+                    <span class="examples">João da Silva</span>
+                    <label for="name">Nome*: </label>
+                    <input type="text" id="name" placeholder="Nome" required>
+                </p>
+                <p>
+                    <span class="examples">seuemail@email.com</span>
+                    <label for="email">E-mail*:</label>
+                    <input type="email" id="email" placeholder="E-mail" required>
+                </p>
+                <p>
+                    <span class="examples">ex: Epic Games, Steam, Microsoft Store</span>
+                    <label for="platform">Plataforma*:</label>
+                    <input type="text" id="platform" placeholder="Plataforma de jogos" required>
+                </p>
+                
+            </form>
+            <form action="">
+                <p>
+                    Deseja receber notificações dos seu jogos favoritos que estão de graça?
+                </p>
+                <p>
+                    <input type="checkbox" id="yes">
+                    <label for="yes">Sim</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="no">
+                    <label for="no">Não</label>
+                </p>
+                <input id="send" type="submit" value="Receba a cópia agora!">
+            </form>
+            <p><small>Seus dados estão protegidos e seguros conosco</small></p>
+        </aside>
+    </div>
+    <footer class="clear">
+        <p>Página estática criada apenas para prática de aprendizado em HTML e CSS</p>
+    </footer>
+</body>
+</html>
