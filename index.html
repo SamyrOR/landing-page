@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Roboto:wght@700&display=swap"
-     rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Roboto:wght@700&display=swap">
     <title>F1 Motorsport</title>
 </head>
 <body>
-    <header>
-        <h1><span class="f1">F1</span> Motorsport</h1>
-        <img class="carro" src="styles/image/carro.png" alt="">
+    <header class="clear">
+            <img id="f1logo" src="styles/image/f1logo.webp"  alt="">
+            <img id="motologo" src="styles/image/Motorsport_Manager_Logo.png" alt="">
     </header>
     <div class="container clearfix">
         <div class="info">
@@ -19,44 +19,38 @@
             <p>Realize o cadastro com o seu e-mail ao lado para receber na hora um copia gratuita do
                 mais aclamado game de F1 do mundo.
             </p>
-            <img class="capa" src="styles/image/capa-jogo.jpeg" alt="">
+            <img class="capa" src="styles/image/capa.jpg" alt="">
         </div>
         <aside>
-            <h3>Receba agora uma cópia</h3>
+            <h2>Receba agora uma cópia!</h2>
             <p>Apenas preencha o formulário abaixo e vamos para as pistas!</p>
             <form class="dados" action="">
-                <p>
-                    <span class="examples">João da Silva</span>
-                    <label for="name">Nome*: </label>
-                    <input type="text" id="name" placeholder="Nome" required>
-                </p>
-                <p>
-                    <span class="examples">seuemail@email.com</span>
-                    <label for="email">E-mail*:</label>
-                    <input type="email" id="email" placeholder="E-mail" required>
-                </p>
-                <p>
-                    <span class="examples">ex: Epic Games, Steam, Microsoft Store</span>
-                    <label for="platform">Plataforma*:</label>
-                    <input type="text" id="platform" placeholder="Plataforma de jogos" required>
-                </p>
-                
+              <span class="examples">João da Silva</span>
+              <label for="name">Nome*: </label>
+              <input id="name" type="text" placeholder="João da Silva" required>
+              <span class="examples">email@email.com</span>
+              <label for="email">E-mail*:</label>
+              <input id="email" type="email" placeholder="email@email.com" required>
+              <span class="examples">ex: Epic Games, Steam, Microsoft Store</span>
+              <label for="platform">Plataforma*:</label><br>
+              <select name="platform" id="platform">
+                  <option value="choice">Escolha a sua Plataforma</option>
+                  <option value="steam">Steam</option>
+                  <option value="epicgames">Epic Games</option>
+              </select>                
             </form>
             <form action="">
                 <p>
                     Deseja receber notificações dos seu jogos favoritos que estão de graça?
                 </p>
-                <p>
-                    <input type="checkbox" id="yes">
+                    <input id="yes" type="checkbox" >
                     <label for="yes">Sim</label>
-                </p>
-                <p>
-                    <input type="checkbox" id="no">
+                    <br>
+                    <input id="no" type="checkbox" >
                     <label for="no">Não</label>
-                </p>
                 <input id="send" type="submit" value="Receba a cópia agora!">
             </form>
-            <p><small>Seus dados estão protegidos e seguros conosco</small></p>
+            <p><small>Seus dados estão protegidos e seguros conosco**</small></p>
         </aside>
     </div>
     <footer class="clear">

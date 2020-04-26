@@ -1,42 +1,78 @@
+@font-face{
+    font-family: baloo;
+    src: url('/home/samyr/Documentos/Projetos/landing-page/font/Baloo_Tamma_2/BalooTamma2-Regular.ttf');
+}
 header{
     column-count: 2;
-    background-color: red;
+    column-gap: 0;
+    padding: 10px;
     height: 100px ;
     width: auto;
 }
-header h1{
-    font-family: Montserrat, sans-serif;
+header, 
+footer{
+    background-color: white;
 }
-.f1{
-    font-size: 50px;
-    color: white;
+body{
+    background-color: #e73336;
+}
+#f1logo{
     margin-left: 300px;
-}
-.carro{
     margin-top: -30px;
-    margin-left: 200px;
-    height: 150px;
+    margin-bottom: 50px;
+    height: 175px;
     width: 250px;
+}
+#motologo{
+    margin-left: -450px;
+    margin-top: 50px;
+    height: 75px;
+    width: 300px;
 }
 .container{
     margin: 0 auto;
     padding: 10px;
     width: 940px;
 }
+.info, 
+aside{
+    color: white;
+    font-family: baloo, sans-serif;
+}
 .info{
     float: left;
     margin-top: 50px;
-    text-align: center;
     width: 400px;
+}
+.info, 
+aside h2{
+    text-align: center;
+}
+.info h1{
+    font-style: italic;
+    font-size: 30px;
+}
+.info p,
+aside p,
+footer{
+    font-weight: bold;
 }
 .capa{
     border-radius: 15px;
+    height: 170px;
+    width: 297px;
+    transition: linear;
+}
+.capa:hover{
+    transform: rotate(-5deg);
 }
 aside{
-    background-color: black;
-    border: 1px solid #000;
+    margin-top: 20px;
+    background-color: rgb(73,73,73);
+    border: 1px solid  rgb(48,48,48);
+    box-shadow: 2px 2px 4px rgba(0,0,0,.3) inset,
+     -2px -2px 4px rgba(0,0,0,.3) inset ;
     border-radius: 13px;
-    color: white;
     float: right;
     padding: 10px;
     width: 300px;
@@ -45,26 +81,39 @@ aside{
     line-height: 30px;
 }
 label{
-    display: inline-block;
     width: 90px;
 }
-input{
+input,
+label{
     display: inline-block;
 }
 .examples{
     display: none;
 }
 #send{
+    font-family: roboto, sans-serif;
+    font-weight: bold;
     border: 1px solid gray;
-    margin-left: 100px;
+    margin-left: 50px;
+    background-image: linear-gradient( white, gray);
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    box-shadow: inset 3px rgba(0,0,0,.3);
+}
+#send:hover{
+    background-image: none;
+    background-color: white;
 }
 .clear{
     clear: both;
 }
 footer{
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    height: 100px;
     text-align: center;
-    bottom: 0;
-    left: 0;
+    line-height: 100px;
 }
 .clearfix::before,
 .clearfix::after{
@@ -74,3 +123,8 @@ footer{
 .clearfix::after{
     clear: both;
 }
+select{
+    height: 25px;
+    width: 230px;
+}
+
