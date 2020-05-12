@@ -34,25 +34,25 @@ body {
     width: 940px;
     padding: 10px;
 }
-.info, 
+.overview, 
 aside {
     color: white;
     font-family: baloo, sans-serif;
 }
-.info {
+.overview {
     float: left;
     margin-top: 50px;
     width: 400px;
 }
-.info, 
+.overview, 
 aside h2 {
     text-align: center;
 }
-.info h1 {
+.overview h1 {
     font-style: italic;
     font-size: 30px;
 }
-.info p,
+.overview p,
 aside p,
 footer {
     font-weight: bold;
@@ -77,7 +77,7 @@ aside {
      -2px -2px 4px rgba(0,0,0,.3) inset ;
     border-radius: 13px;
 }
-.dados {
+.form {
     line-height: 30px;
 }
 label {
