@@ -1,129 +1,129 @@
-@font-face{
+@font-face {
     font-family: baloo;
-    src: url('/home/samyr/Documentos/Projetos/landing-page/font/Baloo_Tamma_2/BalooTamma2-Regular.ttf');
+    src: url('/home/samyr/Documentos/Projetos/landing-page/assets/fonts/BalooTamma2-Regular.ttf');
 }
-header{
+header {
     column-count: 2;
     column-gap: 0;
-    padding: 10px;
-    height: 100px ;
+    height: 100px;
     width: auto;
+    padding: 10px;
 }
 header, 
-footer{
+footer {
     background-color: white;
 }
-body{
+body {
     background-color: #e73336;
 }
-#f1logo{
+#f1logo {
     margin-left: 300px;
     margin-top: -30px;
     margin-bottom: 50px;
     height: 175px;
     width: 250px;
 }
-#motologo{
+#motologo {
     margin-left: -450px;
     margin-top: 50px;
     height: 75px;
     width: 300px;
 }
-.container{
+.container {
     margin: 0 auto;
-    padding: 10px;
     width: 940px;
+    padding: 10px;
 }
 .info, 
-aside{
+aside {
     color: white;
     font-family: baloo, sans-serif;
 }
-.info{
+.info {
     float: left;
     margin-top: 50px;
     width: 400px;
 }
 .info, 
-aside h2{
+aside h2 {
     text-align: center;
 }
-.info h1{
+.info h1 {
     font-style: italic;
     font-size: 30px;
 }
 .info p,
 aside p,
-footer{
+footer {
     font-weight: bold;
 }
-.capa{
-    border-radius: 15px;
+.capa {
     height: 170px;
     width: 297px;
     transition: linear;
+    border-radius: 15px;
 }
-.capa:hover{
+.capa:hover {
     transform: rotate(-5deg);
 }
-aside{
+aside {
     margin-top: 20px;
+    float: right;
+    width: 300px;
+    padding: 10px;
     background-color: rgb(73,73,73);
     border: 1px solid  rgb(48,48,48);
     box-shadow: 2px 2px 4px rgba(0,0,0,.3) inset,
      -2px -2px 4px rgba(0,0,0,.3) inset ;
     border-radius: 13px;
-    float: right;
-    padding: 10px;
-    width: 300px;
 }
-.dados{
+.dados {
     line-height: 30px;
 }
-label{
+label {
     width: 90px;
 }
 input,
-label{
+label {
     display: inline-block;
 }
-.examples{
+.examples {
     display: none;
 }
-#send{
+#send {
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
     font-family: roboto, sans-serif;
     font-weight: bold;
     border: 1px solid gray;
-    margin-left: 50px;
     background-image: linear-gradient( white, gray);
-    height: 50px;
-    width: 200px;
     background-color: white;
     box-shadow: inset 3px rgba(0,0,0,.3);
 }
-#send:hover{
+#send:hover {
     background-image: none;
     background-color: white;
 }
-.clear{
+.clear {
     clear: both;
 }
-footer{
-    font-family: roboto, sans-serif;
-    font-weight: bold;
+footer {
     height: 100px;
     text-align: center;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
     line-height: 100px;
 }
 .clearfix::before,
-.clearfix::after{
+.clearfix::after {
     content: '';
     display: table;
 }
-.clearfix::after{
+.clearfix::after {
     clear: both;
 }
-select{
+select {
     height: 25px;
     width: 230px;
 }
