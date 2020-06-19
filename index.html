@@ -9,51 +9,57 @@
     <title>F1 Motorsport</title>
 </head>
 <body>
-    <header class="clear">
-            <img id="f1logo" src="assets/images/f1logo.webp"">
-            <img id="motologo" src="assets/images/Motorsport_Manager_Logo.png" alt="">
+    <header class="logo-headers">
+        <figure >
+            <img class="bandeiras" src="assets/images/f1logo.webp" alt="Bandeiras quadriculadas cruzadas">
+        </figure>
+        <figure>
+            <img class="motologo" src="assets/images/Motorsport_Manager_Logo.png" alt="Logo do motorsport">
+        </figure>
     </header>
-    <div class="container clearfix">
-        <div class="overview">
-            <h1>Uma cópia totalmente gratuita de F1 Motorsport</h1>
-            <p>Realize o cadastro com o seu e-mail ao lado para receber na hora um copia gratuita do
-                mais aclamado game de F1 do mundo.
-            </p>
-            <img class="capa" src="assets/images/capa.jpg" alt="">
-        </div>
-        <aside>
-            <h2>Receba agora uma cópia!</h2>
-            <p>Apenas preencha o formulário abaixo e vamos para as pistas!</p>
-            <form class="form" action="">
-              <span class="examples">João da Silva</span>
-              <label for="name">Nome*: </label>
-              <input id="name" type="text" placeholder="João da Silva" required>
-              <span class="examples">email@email.com</span>
-              <label for="email">E-mail*:</label>
-              <input id="email" type="email" placeholder="email@email.com" required>
-              <span class="examples">ex: Epic Games, Steam, Microsoft Store</span>
-              <label for="platform">Plataforma*:</label><br>
-              <select name="platform" id="platform">
-                  <option value="choice">Escolha a sua Plataforma</option>
-                  <option value="steam">Steam</option>
-                  <option value="epicgames">Epic Games</option>
-              </select>                
-            </form>
-            <form action="">
-                <p>
-                    Deseja receber notificações dos seu jogos favoritos que estão de graça?
+    <main class="bg-color">
+        <div class="container">
+            <div class="overview">
+                <h1>Uma cópia totalmente gratuita do seu jogo de corrida preferido</h1>
+                <p>Realize o cadastro com o seu e-mail ao lado para receber na hora um copia gratuita do
+                    mais aclamado game de corrida do mundo.
                 </p>
-                    <input id="yes" type="checkbox" >
-                    <label for="yes">Sim</label>
-                    <br>
-                    <input id="no" type="checkbox" >
-                    <label for="no">Não</label>
-                <input id="send" type="submit" value="Receba a cópia agora!">
-            </form>
-            <p><small>Seus dados estão protegidos e seguros conosco**</small></p>
-        </aside>
-    </div>
-    <footer class="clear">
+                <img class="capa" src="assets/images/capa.jpg" alt="">
+            </div>
+            <aside>
+                <h2>Receba agora uma cópia!</h2>
+                <p>Apenas preencha o formulário abaixo e vamos para as pistas!</p>
+                <form class="form" action="">
+                  <span class="examples">João da Silva</span>
+                  <label for="name">Nome*: </label>
+                  <input id="name" type="text" placeholder="João da Silva" required>
+                  <span class="examples">email@email.com</span>
+                  <label for="email">E-mail*:</label>
+                  <input id="email" type="email" placeholder="email@email.com" required>
+                  <span class="examples">ex: Epic Games, Steam, Microsoft Store</span>
+                  <label for="platform">Plataforma*:</label><br>
+                  <select name="platform" id="platform">
+                      <option value="choice">Escolha a sua Plataforma</option>
+                      <option value="steam">Steam</option>
+                      <option value="epicgames">Epic Games</option>
+                  </select>                
+                </form>
+                <form action="">
+                    <p>
+                        Deseja receber notificações dos seu jogos favoritos que estão de graça?
+                    </p>
+                        <input id="yes" type="checkbox" >
+                        <label for="yes">Sim</label>
+                        <br>
+                        <input id="no" type="checkbox" >
+                        <label for="no">Não</label>
+                    <input id="send" type="submit" value="Receba a cópia agora!">
+                </form>
+                <p><small>Seus dados estão protegidos e seguros conosco**</small></p>
+            </aside>
+        </div>
+    </main>
+    <footer class="rodapé">
         <p>Página estática criada apenas para prática de aprendizado em HTML e CSS</p>
     </footer>
 </body>
